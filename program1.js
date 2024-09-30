@@ -14,7 +14,7 @@ var isValid = function(s) {
        
         const stack = [];
         
-        // Traverse through each character in the string
+       
         for (let char of s) {
             // If it's a closing bracket
             if (char in matchingParentheses) {
