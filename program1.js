@@ -26,7 +26,7 @@ var isValid = function(s) {
                     return false;
                 }
             } else {
-                // It's an opening bracket, push onto the stack
+                
                 stack.push(char);
             }
         }
