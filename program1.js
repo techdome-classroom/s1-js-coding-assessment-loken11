@@ -4,7 +4,7 @@
  */
 var isValid = function(s) {
     
-        // Dictionary to hold matching pairs
+      s
         const matchingParentheses = {
             ')': '(',
             '}': '{',
