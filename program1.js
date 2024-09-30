@@ -11,7 +11,7 @@ var isValid = function(s) {
             ']': '['
         };
         
-        // Stack to hold opening brackets
+       
         const stack = [];
         
         // Traverse through each character in the string
