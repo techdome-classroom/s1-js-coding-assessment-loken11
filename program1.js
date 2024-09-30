@@ -21,7 +21,7 @@ var isValid = function(s) {
 
                 const topElement = stack.length > 0 ? stack.pop() : '#';
                 
-                // Check if the popped element matches the corresponding opening bracket
+               
                 if (matchingParentheses[char] !== topElement) {
                     return false;
                 }
