@@ -31,7 +31,7 @@ var isValid = function(s) {
             }
         }
         
-        // In the end, stack should be empty if all parentheses are valid
+        
         return stack.length === 0;
     }
     
