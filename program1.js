@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    function isValid(s) {
+    
         // Dictionary to hold matching pairs
         const matchingParentheses = {
             ')': '(',
